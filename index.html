@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="display-parent">
+  <div class="display-child">
+    <div class="subheader">
+      <h1> Stay updated!</h1>
+<p class="update-text">Join 60,000+ product managers receiving monthly updates on:</p>
+    </div>
+<div class="group-flex">
+  <span><img src="./assets/images/icon-list.svg" alt="img-list"><p class="update-text">Product discovery and building what matters</p></span>
+    <span><img src="./assets/images/icon-list.svg" alt="img-list"><p class="update-text"> Measuring to ensure updates are a success</p></span>
+      <span><img src="./assets/images/icon-list.svg" alt="img-list"><p class="update-text"> And much more!</p></span>
+</div>
+<div class="form-container">
+<form>
+  <div class="group">
+<label for="email-address" class="email-address">Email address</label>
+  <p class="form-alert">valid email required</p>
+  </div>
+  <input type="text" id="email-address" value="" placeholder="  email@company.com" >
+    <button class="btn-type" id="btn-type" for="onclick-button-type" type="button">Subscribe to monthly newsletter</button>
+</form>
+</div>
+  </div>
+  <div class="container-display">
+      <article>
+        <picture>
+      <source srcset="./assets/images/illustration-sign-up-mobile.svg" media="(max-width: 600px)" class="img-mobile">
+      <img src="./assets/images/illustration-sign-up-desktop.svg" alt="img-post" class="img-post">
+        </picture>
+      </article>
+  </div>
+</div>
+  <div class="confirm">
+      <img src="./assets/images/icon-success.svg" alt="img-check" class="img-check">
+<h1 class="sub-text">Thanks for subscribing!</h1>
+<p class="subtitle"> A confirmation email has been sent to <small>ash@loremcompany.com. </small>
+  Please open it and click the button inside to confirm your subscription.
+</p>
+  <button class="dismiss-button">Dismiss message</button>
+    </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener">Frontend Mentor</a>. 
+    Coded by <a href="#">Matthew Sheldon</a>.
+  </div>
+</body>
+</html>
